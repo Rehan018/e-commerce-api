@@ -20,6 +20,11 @@ const UserSchema = new mongoose.Schema({
             default: false
         }
     },
+                                       //change
+preferences: {
+    type: [String],
+    default: [],
+  },
     { timestamps: true}
 );
 
